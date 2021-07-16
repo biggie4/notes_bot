@@ -2,6 +2,7 @@ import telebot
 from bot_config import *
 from keyboard import *
 from database import *
+import numpy
 
 
 bot = telebot.TeleBot(bot_apikey)
